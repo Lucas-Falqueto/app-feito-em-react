@@ -1,0 +1,7 @@
+const notify = () => {
+    toast.success('acessado', {
+      toastId: 'customId',
+    });
+    toast.error('acessado', { toastId: 'customid' });
+  };
+  notify();
